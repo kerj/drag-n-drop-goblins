@@ -1,0 +1,9 @@
+<div cdkDrag class="card" *ngFor="let gob of board.goblins; let i = index;">
+  <img class="card-img-top" src="../../assets/goblin.jpg" alt="Goblin" draggable="false">
+  <div class="card-body">
+    <p class="card-text"> thigs
+    </p>
+    <p class="card-text">{{gob.hp}}</p>    
+    <p class="btn btn-primary" (click)="attackGoblin(gob)">Attack!</p>
+  </div>
+</div>

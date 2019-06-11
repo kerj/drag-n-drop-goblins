@@ -1,0 +1,9 @@
+.row {
+    flex-wrap: unset;
+}
+
+.card {
+    width: 300px;
+    margin: 2px 5px;
+    position: fixed;
+}
